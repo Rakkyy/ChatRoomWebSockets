@@ -1,5 +1,5 @@
 // Connect to socket
-var socket = io.connect("http://localhost:4000");
+var socket = io.connect("http://13.232.21.145:4000");
 
 var message = document.getElementById('message'),
     btn = document.getElementById('send'),
